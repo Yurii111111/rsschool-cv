@@ -3,57 +3,101 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>HTML, CSS & Git Basics</title>
+   <title>My curriculum vitae</title>
+   <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;700;900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <article style="width: 1024px; margin: auto;">
-      <h1><a href="https://yurii111111.github.io/rsschool-cv/" style="font-size: 32px;">rsschool-cv</a></h1>
-      <header>
-         <h2>
+   <header class="header">
+      <div class="container">
+         <h1 class="header__title">
             CV for RSSchool
+         </h1>
+      </div>
+   </header>
+
+   <section class="resume">
+      <div class="container">
+         <h2 class="title">
+            My curriculum vitae
          </h2>
-      </header>
-      <h2>
-         Yurii Verbitskii - Beginning Javascript learner
-      </h2>
-      <img src="https://user-images.githubusercontent.com/56649945/92410415-a833d880-f14c-11ea-8778-66d187cb7606.jpg"
-         alt="avatar">
-      <h3>
-         Contacts
-      </h3>
-      <ul>
-         <li><a href="mailto:ars6300@live.com">km1111111@yandex.ru</a></li>
-         <li>+7(918)557-71-37</li>
-         <li><a href="https://vk.com/id351381776">VKontakte</a></li>
-      </ul>
-      <h3>
-         Summary
-      </h3>
-      <p>
-         Self-motivated, creative, interested to details.
-      </p>
-      <h3>
-         Skills
-      </h3>
-      <p>
-         HTML5/CSS3, basic level of Javascript.
-      </p>
-      <h3>
-         Education
-      </h3>
-      <p>
-         Rostov State Transport University
-      </p>
-      <p>
-         Higher education. Engineer heating engineer.
-      </p>
-      <h3>
-         English
-      </h3>
-      <p>
-         Basic level.
-      </p>
-   </article>
+         <p class="resume__name">
+            Yurii Verbitskii - Beginning Javascript learner
+         </p>
+         <img class="resume__img" src="https://user-images.githubusercontent.com/56649945/92410415-a833d880-f14c-11ea-8778-66d187cb7606.jpg"
+            alt="My foto">
+         <ul class="resume__list">
+            <li class="resume__item">
+               <h3 class="subtitle">
+                  Summary
+               </h3>
+               <p class="resume__text">
+                  Self-motivated, creative, interested to details.
+               </p>
+            </li>
+            <li class="resume__item">
+               <h3 class="subtitle">
+                  Skills
+               </h3>
+               <p class="resume__text">
+                  HTML5/CSS3, basic level of Javascript.
+               </p>
+            </li>
+            <li class="resume__item">
+               <h3 class="subtitle">
+                  Education
+               </h3>
+               <p class="resume__text">
+                  Rostov State Transport University
+               </p>
+               <p class="resume__text">
+                  Higher education. Engineer heating engineer.
+               </p>
+            </li>
+            <li class="resume__item">
+               <h3 class="subtitle">
+                  English
+               </h3>
+               <p class="resume__text">
+                  Basic level.
+               </p>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="container">
+         <h3 class="footer__title title">
+            Contacts
+         </h3>
+         <div class="footer__inner">
+            <ul class="footer__list">
+               <li class="footer__item">
+                  <a class="footer__link" href="mailto:ars6300@live.com">email: km1111111@yandex.ru</a>
+               </li>
+               <li class="footer__item">
+                  <a href="tel: +99999999999" class="footer__link">tel: +9(999)999-99-99</a>
+               </li>
+            </ul>
+            <ul class="footer__social-list">
+               <li class="footer__social-item">
+                  <a href="https://vk.com/id351381776" class="footer__social-link" target="_blank">
+                     <img src="images/vk.svg" alt="">
+                  </a>
+               </li>
+               <li class="footer__social-item">
+                  <a href="https://ok.ru/profile/577388000785" class="footer__social-link" target="_blank">
+                     <img src="images/odnoklassniki.svg" alt="">
+                  </a>
+               </li>
+               <li class="footer__footer-item">
+                  <a href="https://github.com/Yurii111111" class="footer__social-link" target="_blank">
+                     <img src="images/github.svg" alt="">
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </footer>
 </body>
 </html>
