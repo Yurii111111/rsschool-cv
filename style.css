@@ -103,19 +103,8 @@ body {
    justify-content: space-around;
 }
 
-
-.footer__item {}
-
-.footer__link {}
-
 .footer__social-list {
    display: flex;
    width: 250px;
    justify-content: space-between;
 }
-
-.footer__social-item {}
-
-.footer__social-link {}
-
-.footer__footer-item {}
